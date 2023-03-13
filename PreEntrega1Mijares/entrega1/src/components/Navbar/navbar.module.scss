@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  background-color: #5f5d5d;
+  color: #fff;
+  justify-content: space-around;
+  text-align: justify;
+  text-decoration: none;
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.nav :link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav :visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav :hover {
+  transition: 0.7s;
+  font-size: 23px;
+}
