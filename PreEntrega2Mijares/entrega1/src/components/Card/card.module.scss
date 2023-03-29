@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  border: 1px solid #aaa;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
