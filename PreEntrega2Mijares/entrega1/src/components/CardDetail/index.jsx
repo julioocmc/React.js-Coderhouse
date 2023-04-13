@@ -10,7 +10,7 @@ const CardDetail = () => {
       .then((data) => {
         setProducto(data);
       });
-  }, []);
+  }, [id]);
 
   if (!producto) {
     return <h2>Loading...</h2>;

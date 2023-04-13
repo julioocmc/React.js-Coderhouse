@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <nav className={styles.nav}>
-      <Link to="/home">
+      <Link to="/products">
         <p> JM</p>
       </Link>
 
-      <Link to="/categorias">
-        <p>Categorias</p>
+      <Link to="/category/electronics">
+        <p>Electronics</p>
       </Link>
 
       <Link to="/products">
